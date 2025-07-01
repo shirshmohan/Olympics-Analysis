@@ -1,8 +1,6 @@
 import pandas as pd
 
 
-
-
 def preprocess(df,region_df):
 
     df = df[df['Season'] == 'Summer']
